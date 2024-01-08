@@ -55,7 +55,7 @@ section {
 .button:hover {
   border: 2px solid #ff0000;
   color: #ff0000;
-  background-color: #fff;
+  background-color: transparent;
   transition: 0.3s;
 }
 /* header style */
@@ -361,9 +361,9 @@ header {
   transition: 0.3s;
 }
 .form button:hover {
-  color: #ff0000;
-  background-color: #fff;
-  border: 2px solid #ff0000;
+  color: #fff;
+  background-color: #070211;
+  border: 2px solid #070211;
 }
 footer {
   font-family: "Inter", sans-serif;
