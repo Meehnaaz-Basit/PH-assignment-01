@@ -9,7 +9,8 @@ font-family: 'Merriweather', serif;
   box-sizing: border-box;
 }
 .container {
-  width: 82%;
+  max-width: 1440px;
+  width: 84%;
   margin: 0 auto;
 }
 section {
@@ -22,6 +23,9 @@ section {
 }
 .red-sub {
   color: #f00;
+}
+.black-sub {
+  color: #070211;
 }
 .common-heading {
   font-family: "Merriweather", serif;
@@ -209,8 +213,11 @@ header {
   display: flex;
   flex-direction: column;
 }
-.coming-right img {
-  width: 160px;
+.new-year-img {
+  width: 140px;
+}
+.new-year-img img {
+  width: 100%;
 }
 .coming-right h3 {
   color: #f00;
@@ -220,4 +227,55 @@ header {
 }
 .coming-right p {
   padding: 20px 0 30px 0px;
+}
+/* discount */
+.discount-content {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.discount-heading {
+  font-family: "Merriweather", serif;
+  font-size: 60px;
+  font-weight: 900;
+  margin: 20px 0px 30px;
+}
+.discount-content p {
+  font-weight: 500;
+}
+.discount-heading span {
+  color: #ff0000;
+}
+.discount-pictures {
+  padding-top: 70px;
+}
+.discount-value {
+  text-align: end;
+  position: relative;
+}
+.discount-value img {
+}
+.circle-discount {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-100%, -50%);
+}
+.circle-discount img {
+}
+.discount-red {
+  margin-top: -4px;
+  position: relative;
+}
+.discount-red img {
+  width: 100%;
+}
+.discount-box {
+  position: absolute;
+  top: -158%;
+  left: 50px;
+  width: 650px;
+}
+.discount-box img {
 }
