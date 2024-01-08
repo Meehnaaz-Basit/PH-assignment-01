@@ -149,16 +149,22 @@ header {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
-
-  margin: 26px 80px 40px 0;
+  margin: 26px 80px 10px 0;
 }
-.welcome-text a {
+
+.transparent-btn {
   color: #fff;
-  text-decoration: none;
-  font-family: "Inter", sans-serif;
-  font-size: 16px;
+  background-color: transparent;
+  border: 0;
+  font-size: 18px;
   font-weight: 700;
-  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 20px 0px 0px 20px;
+}
+.transparent-btn:hover {
+  color: #ff0000;
+  transition: 0.3s;
 }
 /* location */
 .location-bg {
